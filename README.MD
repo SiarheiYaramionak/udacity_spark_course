@@ -1,6 +1,6 @@
 ## Description
 
-To run Spark on local Windows computer
+To run PySpark on local Windows computer, good for learning and trying out PySpark syntax:
 
 1. follow setup instructions on https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c to set up spark on windows
 2. open command prompt, not Anaconda Command prompt
