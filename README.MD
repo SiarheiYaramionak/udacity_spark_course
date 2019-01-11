@@ -2,10 +2,13 @@
 
 To run PySpark on local Windows computer, good for learning and trying out PySpark syntax:
 
-1. follow setup instructions on https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c to set up spark on windows
-2. open command prompt, not Anaconda Command prompt
-3. Type: pyspark --master local[2]
-4. Will open jupyter notebook with spark. This sets up spark local mode with 2 cores
+1. Follow setup instructions on https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c to set up spark on windows
+2. Open command prompt, not Anaconda Command prompt
+3. Run: pyspark --master local[2]
+4. Will open jupyter notebook with spark. This sets up spark local mode with 2 threads/cores
+
+Alternatively, run: pyspark --master local[\*]
+This Run Spark locally with as many worker threads as logical cores on your machine.
 
 Data file, Train_onetag_small.json, for 3_Machine_Learning_with_Spark can be found here:
 https://drive.google.com/open?id=1FJkeOYsyBBsPvDVDAN_KZynQf6LEjXTi
