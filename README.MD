@@ -8,6 +8,7 @@ To run PySpark on local Windows computer, good for learning and trying out PySpa
 4. Will open jupyter notebook with spark. This sets up spark local mode with 2 threads/cores
 
 Alternatively, run: pyspark --master local[\*]
+
 This Run Spark locally with as many worker threads as logical cores on your machine.
 
 Data file, Train_onetag_small.json, for 3_Machine_Learning_with_Spark can be found here:
