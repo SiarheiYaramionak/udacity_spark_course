@@ -9,7 +9,7 @@ To run PySpark on local Windows computer, good for learning and trying out PySpa
 
 Alternatively, run: pyspark --master local[\*]
 
-This Run Spark locally with as many worker threads as logical cores on your machine.
+This run PySpark locally with as many worker threads as logical cores on your machine.
 
 Data file, Train_onetag_small.json, for 3_Machine_Learning_with_Spark can be found here:
 https://drive.google.com/open?id=1FJkeOYsyBBsPvDVDAN_KZynQf6LEjXTi
