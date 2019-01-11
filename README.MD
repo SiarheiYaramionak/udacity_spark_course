@@ -2,7 +2,6 @@
 Jupyter notebooks accompanying Udacity's PySpark course for DSND's Sparkify capstone project.
 
 ## To Run PySpark on Local Windows Computer
-
 To run PySpark on local Windows computer, good for learning and trying out PySpark syntax:
 
 1. Follow setup instructions on https://medium.com/@GalarnykMichael/install-spark-on-windows-pyspark-4498a5d8d66c to set up spark on windows
