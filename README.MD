@@ -1,4 +1,7 @@
 ## Description
+Jupyter notebooks accompanying Udacity's PySpark course for DSND's Sparkify capstone project.
+
+## To Run PySpark on Local Windows Computer
 
 To run PySpark on local Windows computer, good for learning and trying out PySpark syntax:
 
@@ -10,6 +13,8 @@ To run PySpark on local Windows computer, good for learning and trying out PySpa
 Alternatively, run: pyspark --master local[\*]
 
 This run PySpark locally with as many worker threads as logical cores on your machine.
+
+## Data
 
 Data file, Train_onetag_small.json, for 3_Machine_Learning_with_Spark can be found here:
 https://drive.google.com/open?id=1FJkeOYsyBBsPvDVDAN_KZynQf6LEjXTi
