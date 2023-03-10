@@ -1,0 +1,22 @@
+.idea/
+.env
+.venv
+venv/
+config.ini
+*.pyc
+*.log
+config.yml
+docker-compose.yml
+
+*.csv
+*.json
+ds_preprocessing_data/data/
+!ds_preprocessing_data/tests/data/*.csv
+tmp
+env/
+
+**/__pycache__/**
+*.egg-info
+# *.ipynb
+
+.neptune/
